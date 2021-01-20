@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d2e2e1;
+    font-family: "Poppins", sans-serif;
+    color: #243a6f;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 60px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-size: 20px;
+    display: block;
+    color: #243a6f;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    color: white;
+    font-size: 23px;
+    background: darkblue;
+}
+
+.logo {
+    float: left;
+}
+
+.logo li a {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.logo li a:hover {
+    color: #243a6f;
+    background: #d2e2e1;
+    font-size: 33px;
+}
+
+.fade-in {
+    animation: fadeIn 3s;
+}
+
+
+/* Hero */
+
+.header .hero-img {
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    object-fit: contain;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(25%, -50%);
+}
+
+.hero-content h2 {
+    color: #b888ff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-content .discount {
+    color: #fbb419;
+}
+
+.hero-content h1 span {
+    columns: #253b70;
+    font-size: 6rem;
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+    text-shadow: 3px 3px 0 #f1f1f1, 4px 4px 0 #f1f1f1;
+}
+
+.hero-content .discount {
+    color: #fbb419;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fc7c7c;
+    padding: 1.2rem 4rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+
+.img-ali {
+    padding-left: 100%;
+    float: right;
+}
+
+.header {
+    position: relative;
+    width: 90%;
+    background-color: #d1e2e0;
+    overflow: hidden;
+}
