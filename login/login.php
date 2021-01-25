@@ -12,7 +12,7 @@
     <div class="logo">
         <a href="../index.html">Codevo</a>
     </div>
-    <form action="action_page.php" method="post">
+    <form action="check-login.php" method="post" class="form">
         <div class="container">
             <h1>Login User</h1>
             <label for="uname"><b>Username</b></label>
